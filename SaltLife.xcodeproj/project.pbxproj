@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2062F7AA1C37FB4900671DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7A91C37FB4900671DF2 /* AppDelegate.swift */; };
+		2062F7AC1C37FB4900671DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7AB1C37FB4900671DF2 /* ViewController.swift */; };
+		2062F7AF1C37FB4900671DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7AD1C37FB4900671DF2 /* Main.storyboard */; };
+		2062F7B11C37FB4900671DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7B01C37FB4900671DF2 /* Assets.xcassets */; };
+		2062F7B41C37FB4900671DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7B21C37FB4900671DF2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2062F7A61C37FB4900671DF2 /* SaltLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2062F7A91C37FB4900671DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2062F7AB1C37FB4900671DF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2062F7AE1C37FB4900671DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2062F7B01C37FB4900671DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2062F7B31C37FB4900671DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2062F7B51C37FB4900671DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2062F7A31C37FB4900671DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2062F79D1C37FB4900671DF2 = {
+			isa = PBXGroup;
+			children = (
+				2062F7A81C37FB4900671DF2 /* SaltLife */,
+				2062F7A71C37FB4900671DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2062F7A71C37FB4900671DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2062F7A61C37FB4900671DF2 /* SaltLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2062F7A81C37FB4900671DF2 /* SaltLife */ = {
+			isa = PBXGroup;
+			children = (
+				2062F7A91C37FB4900671DF2 /* AppDelegate.swift */,
+				2062F7AB1C37FB4900671DF2 /* ViewController.swift */,
+				2062F7AD1C37FB4900671DF2 /* Main.storyboard */,
+				2062F7B01C37FB4900671DF2 /* Assets.xcassets */,
+				2062F7B21C37FB4900671DF2 /* LaunchScreen.storyboard */,
+				2062F7B51C37FB4900671DF2 /* Info.plist */,
+			);
+			path = SaltLife;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2062F7A51C37FB4900671DF2 /* SaltLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2062F7B81C37FB4900671DF2 /* Build configuration list for PBXNativeTarget "SaltLife" */;
+			buildPhases = (
+				2062F7A21C37FB4900671DF2 /* Sources */,
+				2062F7A31C37FB4900671DF2 /* Frameworks */,
+				2062F7A41C37FB4900671DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaltLife;
+			productName = SaltLife;
+			productReference = 2062F7A61C37FB4900671DF2 /* SaltLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2062F79E1C37FB4900671DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pair-A-Dice";
+				TargetAttributes = {
+					2062F7A51C37FB4900671DF2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P7HSJ7F2TB;
+					};
+				};
+			};
+			buildConfigurationList = 2062F7A11C37FB4900671DF2 /* Build configuration list for PBXProject "SaltLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2062F79D1C37FB4900671DF2;
+			productRefGroup = 2062F7A71C37FB4900671DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2062F7A51C37FB4900671DF2 /* SaltLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2062F7A41C37FB4900671DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2062F7B41C37FB4900671DF2 /* LaunchScreen.storyboard in Resources */,
+				2062F7B11C37FB4900671DF2 /* Assets.xcassets in Resources */,
+				2062F7AF1C37FB4900671DF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2062F7A21C37FB4900671DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2062F7AC1C37FB4900671DF2 /* ViewController.swift in Sources */,
+				2062F7AA1C37FB4900671DF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2062F7AD1C37FB4900671DF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2062F7AE1C37FB4900671DF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2062F7B21C37FB4900671DF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2062F7B31C37FB4900671DF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2062F7B61C37FB4900671DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2062F7B71C37FB4900671DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2062F7B91C37FB4900671DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaltLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pair-A-Dice.SaltLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2062F7BA1C37FB4900671DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaltLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pair-A-Dice.SaltLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2062F7A11C37FB4900671DF2 /* Build configuration list for PBXProject "SaltLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2062F7B61C37FB4900671DF2 /* Debug */,
+				2062F7B71C37FB4900671DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2062F7B81C37FB4900671DF2 /* Build configuration list for PBXNativeTarget "SaltLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2062F7B91C37FB4900671DF2 /* Debug */,
+				2062F7BA1C37FB4900671DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2062F79E1C37FB4900671DF2 /* Project object */;
+}
