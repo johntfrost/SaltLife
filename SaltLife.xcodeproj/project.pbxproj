@@ -12,6 +12,18 @@
 		2062F7AF1C37FB4900671DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7AD1C37FB4900671DF2 /* Main.storyboard */; };
 		2062F7B11C37FB4900671DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7B01C37FB4900671DF2 /* Assets.xcassets */; };
 		2062F7B41C37FB4900671DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7B21C37FB4900671DF2 /* LaunchScreen.storyboard */; };
+		2062F7C31C37FC0A00671DF2 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7BF1C37FBC200671DF2 /* NotoSans-Bold.ttf */; };
+		2062F7C41C37FC0A00671DF2 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7C01C37FBC200671DF2 /* NotoSans-BoldItalic.ttf */; };
+		2062F7C51C37FC0A00671DF2 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7C11C37FBC200671DF2 /* NotoSans-Italic.ttf */; };
+		2062F7C61C37FC0A00671DF2 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2062F7C21C37FBC200671DF2 /* NotoSans-Regular.ttf */; };
+		2062F7C81C38321200671DF2 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7C71C38321200671DF2 /* MaterialView.swift */; };
+		2062F7CB1C3832A400671DF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7CA1C3832A400671DF2 /* Constants.swift */; };
+		2062F7CD1C38392000671DF2 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7CC1C38392000671DF2 /* MaterialButton.swift */; };
+		2062F7CF1C384A3100671DF2 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062F7CE1C384A3100671DF2 /* MaterialTextField.swift */; };
+		20F6637D1C39791300431D21 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6637A1C39791300431D21 /* Bolts.framework */; };
+		20F6637E1C39791300431D21 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6637B1C39791300431D21 /* FBSDKCoreKit.framework */; };
+		20F6637F1C39791300431D21 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6637C1C39791300431D21 /* FBSDKLoginKit.framework */; };
+		E058B0203BA3233427EF71C5 /* Pods_SaltLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772ABACE48763F4F197B21A2 /* Pods_SaltLife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		2062F7B01C37FB4900671DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2062F7B31C37FB4900671DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2062F7B51C37FB4900671DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2062F7BF1C37FBC200671DF2 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		2062F7C01C37FBC200671DF2 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2062F7C11C37FBC200671DF2 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		2062F7C21C37FBC200671DF2 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		2062F7C71C38321200671DF2 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		2062F7CA1C3832A400671DF2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2062F7CC1C38392000671DF2 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		2062F7CE1C384A3100671DF2 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		20F6637A1C39791300431D21 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		20F6637B1C39791300431D21 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		20F6637C1C39791300431D21 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		431D70C1B2E607707878E5F1 /* Pods-SaltLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaltLife/Pods-SaltLife.release.xcconfig"; sourceTree = "<group>"; };
+		4FABBDC97EEC3331700F9FE0 /* Pods-SaltLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaltLife/Pods-SaltLife.debug.xcconfig"; sourceTree = "<group>"; };
+		772ABACE48763F4F197B21A2 /* Pods_SaltLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaltLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F6637D1C39791300431D21 /* Bolts.framework in Frameworks */,
+				20F6637E1C39791300431D21 /* FBSDKCoreKit.framework in Frameworks */,
+				20F6637F1C39791300431D21 /* FBSDKLoginKit.framework in Frameworks */,
+				E058B0203BA3233427EF71C5 /* Pods_SaltLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093E029797642CCB955F8B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FABBDC97EEC3331700F9FE0 /* Pods-SaltLife.debug.xcconfig */,
+				431D70C1B2E607707878E5F1 /* Pods-SaltLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2062F79D1C37FB4900671DF2 = {
 			isa = PBXGroup;
 			children = (
 				2062F7A81C37FB4900671DF2 /* SaltLife */,
 				2062F7A71C37FB4900671DF2 /* Products */,
+				093E029797642CCB955F8B0B /* Pods */,
+				FFD4049857897074EFD157A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +95,12 @@
 		2062F7A81C37FB4900671DF2 /* SaltLife */ = {
 			isa = PBXGroup;
 			children = (
+				20F663791C3978F800431D21 /* Frameworks */,
+				2062F7C91C38327B00671DF2 /* Util */,
+				2062F7BE1C37FB7900671DF2 /* Resources */,
+				2062F7BD1C37FB7100671DF2 /* Model */,
+				2062F7BC1C37FB6900671DF2 /* View */,
+				2062F7BB1C37FB5F00671DF2 /* Controller */,
 				2062F7A91C37FB4900671DF2 /* AppDelegate.swift */,
 				2062F7AB1C37FB4900671DF2 /* ViewController.swift */,
 				2062F7AD1C37FB4900671DF2 /* Main.storyboard */,
@@ -64,6 +111,67 @@
 			path = SaltLife;
 			sourceTree = "<group>";
 		};
+		2062F7BB1C37FB5F00671DF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2062F7BC1C37FB6900671DF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2062F7C71C38321200671DF2 /* MaterialView.swift */,
+				2062F7CC1C38392000671DF2 /* MaterialButton.swift */,
+				2062F7CE1C384A3100671DF2 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2062F7BD1C37FB7100671DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2062F7BE1C37FB7900671DF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2062F7BF1C37FBC200671DF2 /* NotoSans-Bold.ttf */,
+				2062F7C01C37FBC200671DF2 /* NotoSans-BoldItalic.ttf */,
+				2062F7C11C37FBC200671DF2 /* NotoSans-Italic.ttf */,
+				2062F7C21C37FBC200671DF2 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2062F7C91C38327B00671DF2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2062F7CA1C3832A400671DF2 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		20F663791C3978F800431D21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F6637A1C39791300431D21 /* Bolts.framework */,
+				20F6637B1C39791300431D21 /* FBSDKCoreKit.framework */,
+				20F6637C1C39791300431D21 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFD4049857897074EFD157A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				772ABACE48763F4F197B21A2 /* Pods_SaltLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2062F7B81C37FB4900671DF2 /* Build configuration list for PBXNativeTarget "SaltLife" */;
 			buildPhases = (
+				19053354D4B9FBD034F115CD /* Check Pods Manifest.lock */,
 				2062F7A21C37FB4900671DF2 /* Sources */,
 				2062F7A31C37FB4900671DF2 /* Frameworks */,
 				2062F7A41C37FB4900671DF2 /* Resources */,
+				A279ECEF7D71FDCAC68088E4 /* Embed Pods Frameworks */,
+				DB161BBE9B1AAE749A888178 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2062F7C31C37FC0A00671DF2 /* NotoSans-Bold.ttf in Resources */,
+				2062F7C41C37FC0A00671DF2 /* NotoSans-BoldItalic.ttf in Resources */,
+				2062F7C51C37FC0A00671DF2 /* NotoSans-Italic.ttf in Resources */,
+				2062F7C61C37FC0A00671DF2 /* NotoSans-Regular.ttf in Resources */,
 				2062F7B41C37FB4900671DF2 /* LaunchScreen.storyboard in Resources */,
 				2062F7B11C37FB4900671DF2 /* Assets.xcassets in Resources */,
 				2062F7AF1C37FB4900671DF2 /* Main.storyboard in Resources */,
@@ -131,13 +246,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19053354D4B9FBD034F115CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A279ECEF7D71FDCAC68088E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltLife/Pods-SaltLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB161BBE9B1AAE749A888178 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltLife/Pods-SaltLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2062F7A21C37FB4900671DF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2062F7CF1C384A3100671DF2 /* MaterialTextField.swift in Sources */,
+				2062F7C81C38321200671DF2 /* MaterialView.swift in Sources */,
 				2062F7AC1C37FB4900671DF2 /* ViewController.swift in Sources */,
 				2062F7AA1C37FB4900671DF2 /* AppDelegate.swift in Sources */,
+				2062F7CB1C3832A400671DF2 /* Constants.swift in Sources */,
+				2062F7CD1C38392000671DF2 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +415,14 @@
 		};
 		2062F7B91C37FB4900671DF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FABBDC97EEC3331700F9FE0 /* Pods-SaltLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SaltLife",
+				);
 				INFOPLIST_FILE = SaltLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pair-A-Dice.SaltLife";
@@ -259,8 +432,14 @@
 		};
 		2062F7BA1C37FB4900671DF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431D70C1B2E607707878E5F1 /* Pods-SaltLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SaltLife",
+				);
 				INFOPLIST_FILE = SaltLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pair-A-Dice.SaltLife";
@@ -287,6 +466,7 @@
 				2062F7BA1C37FB4900671DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
