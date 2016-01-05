@@ -35,7 +35,6 @@ class ViewController: UIViewController {
     
     @IBAction func fbBtnPressed(sender: UIButton!) {
         
-        //let ref = Firebase(url: "https://saltlife.firebaseio.com")
         let facebookLogin = FBSDKLoginManager()
         
         facebookLogin.logInWithReadPermissions(["email"], handler: {
