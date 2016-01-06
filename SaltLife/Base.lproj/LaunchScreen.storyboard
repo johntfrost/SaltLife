@@ -5,8 +5,8 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="NotoSans-BoldItalic.ttf">
-            <string>NotoSans-BoldItalic</string>
+        <mutableArray key="NotoSans-Italic.ttf">
+            <string>NotoSans-Italic</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -22,25 +22,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2521" translatesAutoresizingMaskIntoConstraints="NO" id="kRv-nR-kH1">
-                                <rect key="frame" x="168" y="141" width="264" height="317"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="264" id="AM9-MP-5z2"/>
-                                    <constraint firstAttribute="height" constant="317" id="MZ2-kl-LvF"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BAM!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Un7-zx-9vA">
-                                <rect key="frame" x="168" y="466" width="264" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Salty Community" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Un7-zx-9vA">
+                                <rect key="frame" x="168" y="350" width="264" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="5JQ-O9-4rS"/>
                                     <constraint firstAttribute="width" constant="264" id="l2Q-bG-lhj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="NotoSans-BoldItalic" family="Noto Sans" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Italic" family="Noto Sans" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saltlife-logo" translatesAutoresizingMaskIntoConstraints="NO" id="kRv-nR-kH1">
+                                <rect key="frame" x="147" y="259" width="307" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="264" id="AM9-MP-5z2"/>
+                                    <constraint firstAttribute="height" constant="317" id="MZ2-kl-LvF"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AM9-MP-5z2"/>
+                                        <exclude reference="MZ2-kl-LvF"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.82592907969999996" blue="0.65851330689999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.38431372549999998" green="0.77647058820000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kRv-nR-kH1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HnN-Uh-JgZ"/>
                             <constraint firstItem="Un7-zx-9vA" firstAttribute="top" secondItem="kRv-nR-kH1" secondAttribute="bottom" constant="8" id="eVP-c6-KZv"/>
@@ -55,6 +61,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_2521" width="777" height="1070"/>
+        <image name="saltlife-logo" width="307" height="83"/>
     </resources>
 </document>

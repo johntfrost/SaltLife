@@ -14,7 +14,10 @@ import Firebase
 
 let SHADOW_COLOR: CGFloat = 157.0 / 255.0
 
-let ref = Firebase(url: "https://saltlife.firebaseio.com")
+//Firebase Paths
+let REF = Firebase(url: "https://saltlife.firebaseio.com")
+let REF_USERS = Firebase(url: "\(REF)/users")
+let REF_POSTS = Firebase(url: "\(REF)/posts")
 
 let KEY_UID = "uid"
 

@@ -50,13 +50,17 @@ class ViewController: UIViewController {
                 
                 print("Successfully logged in with facebook. \(accessToken)")
             
-                ref.authWithOAuthProvider("facebook", token: accessToken,
+                REF.authWithOAuthProvider("facebook", token: accessToken,
                     withCompletionBlock: { error, authData in
                         if error != nil {
                             print("Login failed. \(error)")
                             
                         } else {
                             print("Logged in! \(authData)")
+                            
+                            let user = ["provider": authData.provider!]
+                            self.createFirebaseUser(authData.uid, user: user)
+                            
                             NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: KEY_UID)
                             self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                         }
@@ -69,18 +73,25 @@ class ViewController: UIViewController {
         
         if let email = emailField.text where email != "", let pwd = passwordField.text where  pwd != "" {
             
-            ref.authUser(email, password: pwd, withCompletionBlock: {error, authData in
+            REF.authUser(email, password: pwd, withCompletionBlock: {error, authData in
                 if error != nil {
                     print(error)
                     if error.code == STATUS_ACCOUNT_NONEXIST{
-                        ref.createUser(email, password: pwd, withValueCompletionBlock: { error, result in
+                        REF.createUser(email, password: pwd, withValueCompletionBlock: { error, result in
                             
                             if error != nil {
                                 self.showErrorAlert("Could not creat account", msg: " Check that your shit is correct")
                                 
                             }else {
                                 NSUserDefaults.standardUserDefaults().setValue(result [KEY_UID], forKey: KEY_UID)
-                                ref.authUser(email, password: pwd, withCompletionBlock: nil)
+                                REF.authUser(email, password: pwd, withCompletionBlock: {
+                                    
+                                    err, authData in
+                                    
+                                    let user = ["provider": authData.provider!, "blah": "emailtest"]
+                                    self.createFirebaseUser(authData.uid, user: user)
+                                })
+                                
                                 self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                             }
                         })
@@ -107,6 +118,10 @@ class ViewController: UIViewController {
         let action = UIAlertAction(title: "Ok", style: .Default, handler: nil)
         alert.addAction(action)
         presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    func createFirebaseUser(uid:String, user: Dictionary<String,String>) {
+        REF_USERS.childByAppendingPath(uid).setValue(user)
     }
 
 }
