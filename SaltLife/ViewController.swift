@@ -37,12 +37,14 @@ class ViewController: UIViewController {
         
         let facebookLogin = FBSDKLoginManager()
         
-        facebookLogin.logInWithReadPermissions(["email"], handler: {
-            (facebookResult, facebookError) -> Void in
-            if facebookError != nil {
-                print("Facebook login failed. Error \(facebookError)")
+        facebookLogin.logInWithReadPermissions(["email"],
+            fromViewController: self,
+            handler: {(result:FBSDKLoginManagerLoginResult!, error:NSError!) -> Void in
                 
-            } else if facebookResult.isCancelled {
+            if error != nil {
+                print("Facebook login failed. Error \(error)")
+                
+            } else if result.isCancelled {
                 print("Facebook login was cancelled.")
                 
             } else {
