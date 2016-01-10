@@ -19,6 +19,12 @@ let REF = Firebase(url: "https://saltlife.firebaseio.com")
 let REF_USERS = Firebase(url: "\(REF)/users")
 let REF_POSTS = Firebase(url: "\(REF)/posts")
 
+var REF_USER_CURRENT: Firebase {
+    let uid = NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) as? String
+    let user = Firebase(url: "\(REF_USERS)").childByAppendingPath(uid)
+    return user!
+}
+
 let KEY_UID = "uid"
 
 // Segues

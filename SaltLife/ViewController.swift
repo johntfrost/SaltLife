@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         if NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) != nil {
             self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
         }
-        
-        
     }
     
     @IBAction func fbBtnPressed(sender: UIButton!) {
